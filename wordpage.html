@@ -1,0 +1,34 @@
+<html>
+	<title>Guess The Word</title>
+	<link rel="stylesheet" href="style.css">
+	
+	<!--Background-->
+	<body style="background-image: url(ebhome.png); background-size: cover;">	
+
+		<!--Menu-->
+		<section class="left">
+			<div> <a href="homesite.html"> Home </a> </div>
+			<div>Game</div>
+			<div> <a href="madeby.html"> Designer </a> </div>
+			<div> <a href="contact.html"> Contact </a> </div>
+		</section>
+		
+		<!--Game-->
+		<aside class="right">
+			<div class="container" >
+				<!--Title-->
+				<div> <strong>Word Game!</strong></div>
+				<div>Try to guess the word!</div>
+				<!--Explanation-->
+				<p id="wordspot">the word guessed goes here</p>
+				<!--Letters-->
+				<div id="keyboard" style="font-size:25px;"></div>
+				<!--Reset Button-->
+				<button class="btn.btn-info" onclick="reset()" style="width: auto; height:auto; font-size:2vw;">Reset</button>
+			</div>	
+		</aside>
+		
+		<!--JS-->
+		<script src="word.js" > </script>
+	</body>
+</html>

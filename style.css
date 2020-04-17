@@ -1,0 +1,33 @@
+
+body{
+	background: white;
+	color: black;
+	margin: 0;
+	padding: 0;					/*defualt text*/
+
+}
+
+
+
+
+.left{
+	padding: 8px 0px 0px 8px;
+	float: left;
+	font-size: 3vw;					/*left menu*/
+}
+
+.container{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 32%;				/*Positions word game*/
+	width: 35%;
+	text-align:center;
+}
+
+.right{
+	padding-top: 8px;
+	float: right;				/*right and middle*/
+	width: 85%;
+	font-size: 3vw;
+}
+
